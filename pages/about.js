@@ -1,12 +1,13 @@
+import { Layout } from "@/components/Layout";
 
-const about = () => {
+const About = () => {
   return (
-    <div>
+    <Layout title='About DJ events'>
       <h1>About</h1>
       <p>This is an app to find the latest DJ and other musical events</p>
       <p>Version 1.0.0</p>
-    </div>
+    </Layout>
   )
 }
 
-export default about
+export default About;
